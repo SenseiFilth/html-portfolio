@@ -1,0 +1,58 @@
+.header {
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.head {
+    text-align: center;
+    font-style: italic;
+    margin-top: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.topimage {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.topimage:hover {
+    transform: scale(1.05);
+}
+
+.text {
+    text-align: center;
+    font-family: serif;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text2 {
+    text-align: center;
+    font-family: serif;
+    margin-bottom: auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+html {
+    background-image: url(https://images.pexels.com/photos/2217366/pexels-photo-2217366.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2217366.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
